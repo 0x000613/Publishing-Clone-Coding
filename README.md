@@ -7,6 +7,11 @@
 - 김우영
 - 양수원
 
+### ToDo 및 Issues
+
+ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects
+Issues - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/issues
+
 ### 작업 스케줄
 
 1. 베스킨라빈스 홈페이지 메인 (11/22 ~ 11/23) - 양수원
