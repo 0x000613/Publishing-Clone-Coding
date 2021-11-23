@@ -7,6 +7,11 @@
 - 김우영
 - 양수원
 
+### ToDo 및 Issues
+
+- ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects  
+- Issues - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/issues
+
 ### 작업 스케줄
 
 1. 베스킨라빈스 홈페이지 메인 (11/22 ~ 11/23) - 양수원
@@ -22,7 +27,7 @@
 
 <!-- 클래스명은 공백을 하이폰으로 대체하며, 소문자만을 사용합니다. -->
 <!-- id -> class 순으로 작성합니다. -->
-<div id="my-class" class="class-example"></div>
+<div id="my-id" class="class-example"></div>
 
 <!-- 메인 컨테이너는 div 대신 각각 header, main, footer 태그를 사용합니다. -->
 <header>
@@ -77,3 +82,7 @@ const myVar = returnAdd(1, 3);
 ```
 
 `index.html` 파일은 루트 디렉토리에 위치시키고 `css`, `js`, `image`, `video` 파일은 `assets` 디렉토리 하위에 위치시킵니다.
+
+## 완성 결과물
+
+Not Yet
