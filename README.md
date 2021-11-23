@@ -9,8 +9,8 @@
 
 ### ToDo 및 Issues
 
-ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects  
-Issues - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/issues
+- ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects  
+- Issues - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/issues
 
 ### 작업 스케줄
 
@@ -82,3 +82,7 @@ const myVar = returnAdd(1, 3);
 ```
 
 `index.html` 파일은 루트 디렉토리에 위치시키고 `css`, `js`, `image`, `video` 파일은 `assets` 디렉토리 하위에 위치시킵니다.
+
+## 완성 결과물
+
+Not Yet
