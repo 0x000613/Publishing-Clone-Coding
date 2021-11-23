@@ -50,6 +50,7 @@
     background-color: #fff;
     border: 2px solid #00c3bd;
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .btn-rounded {
