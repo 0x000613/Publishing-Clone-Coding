@@ -9,7 +9,7 @@
 
 ### ToDo 및 Issues
 
-ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects
+ToDo - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/projects  
 Issues - https://github.com/XerosLab/EZEN-FrontEnd-TeamPortfolio/issues
 
 ### 작업 스케줄
