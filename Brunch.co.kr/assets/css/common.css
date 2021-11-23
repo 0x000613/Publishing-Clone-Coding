@@ -1,3 +1,6 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
+
 /* font size */
 .sm {
     font-size: 14px !important;
@@ -78,4 +81,16 @@
     font-family: "Nanum Myeongjo",sans-serif;
     color: #cacaca;
     letter-spacing: -.05em;
+}
+
+/* 드래그 기능 제거 */
+.no-drag {-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
+
+/* 섹터별 타이틀과 설명란 div 제어 */
+.title-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
 }
