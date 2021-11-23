@@ -22,7 +22,7 @@
 
 <!-- 클래스명은 공백을 하이폰으로 대체하며, 소문자만을 사용합니다. -->
 <!-- id -> class 순으로 작성합니다. -->
-<div id="my-class" class="class-example"></div>
+<div id="my-id" class="class-example"></div>
 
 <!-- 메인 컨테이너는 div 대신 각각 header, main, footer 태그를 사용합니다. -->
 <header>
