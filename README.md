@@ -1,11 +1,15 @@
 # EZEN-FrontEnd-TeamPortfolio
 
 베스킨라빈스, 브런치, 스타벅스 메인 홈페이지 클론 코딩 프로젝트입니다.
-
 ### 참가자
 
 - 김우영
 - 양수원
+
+### Demo
+
+- 베스킨라빈스 : https://xeroslab.github.io/EZEN-FrontEnd-TeamPortfolio/baskinrobbins.co.kr/index.html
+- 브런치 : https://xeroslab.github.io/EZEN-FrontEnd-TeamPortfolio/Brunch.co.kr/index.html
 
 ### ToDo 및 Issues
 
@@ -82,7 +86,3 @@ const myVar = returnAdd(1, 3);
 ```
 
 `index.html` 파일은 루트 디렉토리에 위치시키고 `css`, `js`, `image`, `video` 파일은 `assets` 디렉토리 하위에 위치시킵니다.
-
-## 완성 결과물
-
-Not Yet
