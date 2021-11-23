@@ -197,9 +197,7 @@ header .member .join span {
 #content .banner-slide li {
     float: left;
 }
-#content .banner-slide .banner-1 {
-    width: 100%;
-}
+
 #content .banner-slide li a {
     display: block;
     height: 697px;
@@ -541,4 +539,27 @@ footer .familysite a {
     padding-left: 15px;
     color: #726454;
     line-height: 25px;
+}
+
+    /* info */
+footer .info {
+    padding-top: 48px;
+    color : #635b56;
+    font-size: 11px;
+    text-align: center;
+}
+footer .info .logo {
+    padding-bottom: 35px;
+}
+footer .info > div p {
+    padding-right: 15px;
+}
+address {
+    font-style: normal;
+    font-weight: 400;
+}
+footer .info .copyright {
+    padding-top: 12px;
+    color: #b1adab;
+    font-size: 11px;
 }

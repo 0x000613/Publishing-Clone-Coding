@@ -101,26 +101,27 @@
                     <a></a> 
                 </div>
             </div>
+            <!-- slide -->
             <div class="banner-slide">
                 <div class="swipe">
                     <ul class="swipe-wrap">
-                        <li class="banner-1"><a></a></li>
-                        <li class="banner-2"><a></a></li>
-                        <li class="banner-3"><a></a></li>
-                        <li class="banner-4"><a></a></li>
-                        <li class="banner-5"><a></a></li>
+                        <li class="banner-1 mySlides" style="width:100%"><a></a></li>
+                        <li class="banner-2 mySlides" style="width:100%"><a></a></li>
+                        <li class="banner-3 mySlides" style="width:100%"><a></a></li>
+                        <li class="banner-4 mySlides" style="width:100%"><a></a></li>
+                        <li class="banner-5 mySlides" style="width:100%"><a></a></li>
                     </ul>
                 </div>
                 <div class="dslide">
-                    <a class="active"><span ></span></a>
-                    <a><span></span></a>
-                    <a><span></span></a>
-                    <a><span></span></a>
-                    <a><span></span></a>
+                    <a><span class="dot" onclick="currentSlide(1)"></span></a>
+                    <a><span class="dot" onclick="currentSlide(2)"></span></a>
+                    <a><span class="dot" onclick="currentSlide(3)"></span></a>
+                    <a><span class="dot" onclick="currentSlide(4)"></span></a>
+                    <a><span class="dot" onclick="currentSlide(5)"></span></a>
                 </div>
                 <div class="btns">
-                    <a href="#" class="prev"><img src="assets/img/btn_banner_prev.png"></a>
-                    <a href="#" class="next"><img src="assets/img/btn_banner_next.png"></a>
+                    <a href="#" class="prev" onclick="plusSlides(-1)"><img src="assets/img/btn_banner_prev.png"></a>
+                    <a href="#" class="next" onclick="plusSlides(1)"><img src="assets/img/btn_banner_next.png"></a>
                 </div>
             </div>
             <!-- main banner -->
@@ -133,7 +134,7 @@
                 <div class="event-list">
                     <div class="swipe">
                         <div class="swipe-wrap" style="width: 7200px">
-                            <div class="list-product">
+                            <div class="list-product eventSlid">
                                 <ul>
                                     <li>
                                         <a>
@@ -178,7 +179,7 @@
                                 </ul>
                             </div>
                             <!-- list-product 2-->
-                            <div class="\list-product\">
+                            <div class="list-product eventSlid">
                                 <ul>
                                     <li>
                                         <a>
@@ -223,7 +224,7 @@
                                 </ul>
                             </div>
                             <!-- list-product 3-->
-                            <div class="\list-product\">
+                            <div class="list-product eventSlid">
                                 <ul>
                                     <li>
                                         <a>
@@ -240,9 +241,9 @@
                         </div>
                         <!-- swipe end -->
                         <div class="dslide">
-                            <a class="active"><span></span></a>
-                            <a><span></span></a>
-                            <a><span></span></a>
+                            <a><span class="dt" onclick="currentEvent(1)"></span></a>
+                            <a><span class="dt" onclick="currentEvent(2)"></span></a>
+                            <a><span class="dt" onclick="currentEvent(3)"></span></a>
                         </div>
                     </div>
                 </div>
@@ -355,14 +356,25 @@
                     </nav>
                 </div>
             </div>
-            <div class="info"></div>
+            <div class="info">
+                <h1 class="logo">
+                    <img src="assets/img/footer_logo.png">
+                </h1>
+                <div class="box-1">
+                    <p>사업자 등록번호 : 303-81-09535</p>
+                    <p>비알코리아(주) 대표이사 도세호</p>
+                    <address class="address">서울특별시 서초구 남부순환로 2620(양재동 11-149번지)</address>
+                </div>
+                <div class="box-2">
+                    <p>TEl : 808-555-3131</p>
+                    <p>개인정보관리책임자 : 김경우</p>
+                </div>
+                <p class="copyright"> 
+                    Copyright ⓒ 2016 BRKOREA Company. All Rights Reserved.
+                </p>
+            </div>
         </div>
     </footer>
-    <script>
-        document.querySelector('#btn').addEventListener('click', e =>{
-            e.currentTarget.classList.toggle('on')
-        });
-    
-    </script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
