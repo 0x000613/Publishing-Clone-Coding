@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
 
 /* font size */
+.ssm {
+    font-size: 12px !important;
+}
+
 .sm {
     font-size: 14px !important;
 }
@@ -48,7 +52,7 @@
     opacity: 0.9;
 }
 
-.rounded-btn {
+.btn-rounded {
     width: 66px;
     height: 30px;
     margin-top: -5px;
@@ -60,6 +64,11 @@
     font-family: 'Noto Sans Light',sans-serif;
     text-align: center;
     text-decoration: none;
+}
+
+.btn-active {
+    border: solid 1px #0AC7BD;
+    color: #0AC7BD;
 }
 
 /* font */
@@ -83,6 +92,12 @@
     letter-spacing: -.05em;
 }
 
+.desc2 {
+    font-family: "Noto Sans KR";
+    color: #333333;
+    padding: 15px 0;
+}
+
 /* 드래그 기능 제거 */
 .no-drag {-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
 
@@ -91,6 +106,6 @@
     width: 960px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
