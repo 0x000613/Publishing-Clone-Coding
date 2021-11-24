@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- For aos.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>starbucks</title>
 </head>
 <body>
@@ -172,6 +174,51 @@
                 </div>
             </div>
         </section>
+        <!-- new-wrap end -->
+        <section id="main-bean">
+            <div class="main-inner">
+                <div class="bean-img" data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-distance="500"
+                data-aos-duration="400">
+                    <img src="assets/img/2021_chrsitmas_bean.png">
+                </div>
+                <div class="bean-text" id="main-bean-right" data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                data-aos-distance="500"
+                data-aos-duration="400">
+                    <div id="main-bean-right-detail">
+                    <img src="assets/img/2021_chrsitmas_bean_txt.png">
+                    <div class="btn-bean">
+                        <a>자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reserve-wrap">
+            <div class="reserve-inner">
+                <div class="reserve-title">
+                    <img src="assets/img/reserve_christmas_bean_title_211018.png">
+                </div>
+                <div class="reserve-visual">
+                    <img src="assets/img/reserve_christmas_bean_211018.jpg" class="reserve-back">
+                </div>
+                <div class="reserve-btn-wrap">
+                    <div class="reserve-btn">
+                        <a>자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- For aos.js -->
+    <script src="https://unpkg.com/animations.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos.js Init -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
