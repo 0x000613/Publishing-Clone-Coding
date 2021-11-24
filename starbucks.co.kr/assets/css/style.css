@@ -1,0 +1,318 @@
+#mstopWrap {
+    height: 120px;
+    position: relative;
+}
+.sub-gnb-wrap {
+    background: #f6f5ef;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 2px solid #000;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+.sub-gnb-wrap {
+    height: 120px;
+    z-index: 99;
+}
+.sub-gnb-wrap-inner {
+    height: 120px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.sub-gnb-wrap-inner h1.logo {
+    height: 75px;
+    top: 22px;
+    width: 75px;
+    z-index: 12;
+    position: absolute;
+    left: 0;
+}
+.sub-gnb-wrap-inner h1.logo a {
+    background: url("../img/logo.png");
+    display: block;
+    height:100%;
+    overflow: hidden;
+    width: 100%;
+}
+.sub-gnb-wrap-inner nav.util-nav{
+    height: 20px;
+    right: 93px;
+    top: 15px;
+    width: 464px;
+    background: url("../img/sdown_util_sep.png") no-repeat;
+    position:absolute;
+}
+
+.sub-gnb-wrap-inner nav.util-nav ul li {
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+.sub-gnb-wrap-inner nav.util-nav ul li a {
+    line-height: 20px;
+    color: #555;
+    display: block;
+    font: normal 13px Avenir, Arial, georgia;
+}
+.sub-gnb-wrap-inner nav.util-nav ul li.util-nav01 {
+    width: 76px;
+}
+.sub-gnb-wrap-inner nav.util-nav ul li.util-nav02{
+    margin-left: 1px;
+    width: 107px;
+}
+.sub-gnb-wrap-inner nav.util-nav ul li.util-nav03{
+    margin-left: 1px;
+    width: 181px;
+}
+.sub-gnb-wrap-inner nav.util-nav ul li.util-nav04{
+    margin-left: 1px;
+    width: 97px;
+}
+p.btn-search {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    height: 32px;
+    right: 54px;
+    top:9px;
+    width: 32px;
+}
+.sub-gnb-wrap-inner p.btn-search a{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 34px;
+    width: 34px;
+}
+p.btn-search a img {
+    position: absolute;
+    z-index: 1;
+    right: 7px;
+    top: 6px;
+}
+.sub-gnb-nav{
+    height: 66px;
+    top: 54px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+}
+.sub-gnb-inner{
+    height: 66px;
+    width: 1100px;
+    margin: 0 auto;
+    z-index: 7;
+}
+.sub-gnb-inner > ul {
+    float:right;
+}
+.sub-gnb-inner > ul li{
+    float:left;
+}
+.sub-gnb-inner > ul li h2{
+    height: 56px;
+    line-height: 20px;
+    padding-top: 10px;
+    color: #333;
+    display: block;
+    font: normal 13px Arial, georgia;
+    text-align: center;
+    width: 100%;
+}
+.sub-gnb-inner > ul li.gnb-nav01{
+    width: 89px;
+}
+.sub-gnb-inner > ul li.gnb-nav02{
+    width: 73px;
+}
+.sub-gnb-inner > ul li.gnb-nav03{
+    width: 79px;
+}
+.sub-gnb-inner > ul li.gnb-nav04{
+    width: 153px;
+}
+.sub-gnb-inner > ul li.gnb-nav05{
+    width: 225px;
+}
+.sub-gnb-inner > ul li.gnb-nav06{
+    width: 131px;
+}
+/* header end */
+
+/* main */
+#container {
+    width: 100%;
+}
+#topWrap {
+    height: 100% !important;
+    border-top: 2px solid #000;
+    position: relative;
+}
+.layer-floating{
+    position: fixed;
+    top: 154px;
+    left: 54.5%;
+    width: 140px;
+    margin-left: 485px;
+    z-index: 100;
+}
+.layer-floating a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.layer-floating img{
+    display: block;
+    width: 100%;
+}
+.visual-wrap {
+    height: 646px;
+    background: #d1131d no-repeat 50% 50%;
+    background-size: cover;
+}
+.visual-inner{
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+.visual-slogan{
+    position: absolute;
+    bottom: 71.36222910216718%;
+    z-index: 4;
+}
+.visual-slogan, .btn-slogan{
+    margin-left: -542px;
+    width: 328px;
+    max-width: 328px;
+    left: 50%;
+}
+.visual-set {
+    position: absolute;
+    left: 50%;
+    margin-left: -540px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1080px;
+}
+.visual-set:before{
+    left: -4.62962962962963%;
+    bottom: 0;
+    width: 348px;
+    height: 23.21981424148607%;
+    background: url("../img/2021_chiristmas_bg_left.png") no-repeat 50% 100%;
+    background-size: contain;
+}
+.visual-set:after {
+    right: 2.314814814814815%;
+    top: 0;
+    width: 249px;
+    height: 13.0030959752322%;
+    background: url("../img/2021_chiristmas_bg_right.png") no-repeat 50% 0%;
+    background-size: contain;
+}
+.visual-set:before ,.visual-set:after{
+    content:"";
+    display:block;
+    position: absolute;
+}
+.btn-slogan {
+    height: 38px;
+    position: absolute;
+    top: 34.98452012383901%;
+    z-index: 5;
+}
+.set-01 {
+    position: absolute;
+    width: 27.31481481481481%;
+    right: 50%;
+    margin-right: -5%;
+    max-width: 295px;
+    bottom: 63px;
+    z-index: 2;
+}
+.set-01 img, .set-02 img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+.set-02 {
+    position: absolute;
+    width: 46.57407407407407%;
+    right: 50%;
+    margin-right: -38.24074074074074%;
+    max-width: 503px;
+    bottom: 79px;
+    z-index: 1;
+}
+.set-03 {
+    position: absolute;
+    width: 21.85185185185185%;
+    right: -3.888888888888889%;
+    max-width: 236px;
+    bottom: 63px;
+    z-index: 3;
+}
+.set-03 img {
+    width: 100%;
+}
+.set-common:after{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 91px;
+}
+.btn-slogan {
+    top: 34.98452012383901%;
+    z-index: 5;
+    height: 38px;
+}
+.btn-slogan a {
+    width: 129px;
+    margin: 0 auto;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    height: 100%;
+    font-size: 15px;
+    line-height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+/* topWrap end */
+
+.line-notice {
+    height: 62px;
+    position: relative;
+    width: 100%;
+}
+.notice-left {
+    height: 62px;
+    width: 50%;
+    background: #111;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.notice-right {
+    height: 62px;
+    width: 50%;
+    background-color: #f6f5ef;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
