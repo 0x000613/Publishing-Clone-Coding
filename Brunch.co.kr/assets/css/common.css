@@ -1,6 +1,15 @@
 /* font family */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
 
+/* Etc */
+hr {
+    border-width:1px 0px 0px 0px;
+    border-style:solid;
+    border-color:#808080;
+    opacity: 0.3;
+    height:1px;
+} 
+
 /* font size */
 .ssm {
     font-size: 12px !important;
@@ -101,6 +110,15 @@
     font-family: "Noto Sans KR";
     color: #333333;
     padding: 15px 0;
+}
+
+.text-by {
+    font-size: 11px;
+    color: #bfbfbf;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* 드래그 기능 제거 */

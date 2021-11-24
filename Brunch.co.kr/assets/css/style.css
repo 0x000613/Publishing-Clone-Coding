@@ -69,4 +69,5 @@ main {
 footer {
     height: 350px;
     background-color: #101010;
+    overflow: hidden;
 }
