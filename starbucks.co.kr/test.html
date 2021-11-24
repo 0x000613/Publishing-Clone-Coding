@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/test.css" />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- For aos.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- animation section 1 -->
+    <section id="main-bean-wrap">
+        <div id="main-bean-inner">
+            <!-- left -->
+            <div id="main-bean-left" data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-distance="500"
+            data-aos-duration="400"> <!-- 효과 시작, 끝까지 걸리는 속도 (ms) 50 ~ 3000 범위 내에서 설정 가능-->
+                <img src="./assets/img/2021_chrsitmas_bean.png" />
+            </div>
+
+            <!-- right -->
+            <div id="main-bean-right" data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-distance="500"
+            data-aos-duration="400">
+                <div id="main-bean-right-detail">
+                    <img src="assets/img/2021_chrsitmas_bean_txt.png" />
+                    <a href="#"><button>자세히 보기</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- For aos.js -->
+    <script src="https://unpkg.com/animations.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos.js Init -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
