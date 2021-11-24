@@ -83,6 +83,10 @@
     letter-spacing: -.05em;
 }
 
+.noto-sans {
+    font-family: "Noto Sans KR";
+}
+
 .desc {
     padding-bottom: 16px;
     margin-top: -3px;
