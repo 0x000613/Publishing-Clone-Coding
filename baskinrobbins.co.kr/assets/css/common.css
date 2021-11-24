@@ -23,6 +23,7 @@ ul{
 a {
     color: #483834;
     text-decoration: none;
+    cursor: pointer;
 }
 img {
     border: 0;
