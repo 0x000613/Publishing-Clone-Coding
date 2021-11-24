@@ -10,6 +10,7 @@
 
 - 베스킨라빈스 : https://xeroslab.github.io/EZEN-FrontEnd-TeamPortfolio/baskinrobbins.co.kr/index.html
 - 브런치 : https://xeroslab.github.io/EZEN-FrontEnd-TeamPortfolio/Brunch.co.kr/index.html
+- 스타벅스 : https://xeroslab.github.io/EZEN-FrontEnd-TeamPortfolio/starbucks.co.kr/index.html
 
 ### ToDo 및 Issues
 
