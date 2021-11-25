@@ -103,92 +103,137 @@ header .member .join span {
 }
 
 /* gnb */
-#gnb {
-    float: right;
-}
-#gnb .gnb-wrap >ul >li {
-    float: left;
-    position: relative;
-}
-
-#gnb .gnb-main a {
-    display: block;
-    padding: 0 59px;
-}
-
-#gnb .gnb-main span {
-    display: block;
+#menu-bar-wrapper {
+    width: 100%;
     height: 46px;
-    background: url(../img/gnb_menu.png) no-repeat;
-    line-height: 46px;
-    text-indent: -9999px;
+    margin-left : 100px;
 }
 
-#gnb .gnb-flavor .gnb-main a {
-    padding-left: 0;
+#menu-bar-inner {
+    position:relative;
+    margin: 0 0 0 -480px;
+    width: 100%;
+    left: 100px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 3;
 }
 
-#gnb .gnb-flavor .gnb-main span {
-    width: 164px;
-    background-position: -133px -3px;
+/* 메뉴바 로그인 영역 */
+#menu-bar-login {
+    padding-left: 180px;
+    padding-right: 45px;
+    white-space: nowrap;
 }
 
-#gnb .gnb-menu .gnb-main span {
-    width: 42px;
-    background-position: -415px -3px;
+#menu-bar-login a span {
+    font-size: 11px;
+    font-weight: 800;
 }
 
-#gnb .gnb-nutrition .gnb-main span {
-    width: 105px;
-    background-position: -545px -3px;
-}
-#gnb .gnb-nutrition .gnb-main a {
-    padding: 0 27.5px;
+#menu-bar-login a:nth-child(1) span {
+    color: #F77C98;
+    margin-right: 40px;
 }
 
-#gnb .gnb-event .gnb-main span {
-    width: 42px;
-    background-position: -737px -3px;
+#menu-bar-login a:nth-child(2) span {
+    color: #6C6C6C;
 }
 
-#gnb .gnb-store .gnb-main span {
-    width: 49px;
-    background-position: -897px -3px;
+/* 메뉴바 카테고리 영역 */
+#menu-bar-category {
+    white-space: nowrap;
+}
+#menu-bar-category a {
+    margin-left: 5px;
+}
+#menu-bar-category a:last-child {
+    margin-left: -5px;
+}
+#menu-bar-category a span {
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+#dropdown-wrapper {
+    width: 100%;
+    min-width: 100%;
+    height: 280px;
+    background-color: #fff;
+    position: absolute;
+    transition: height .7s;
+
+    margin: 0 0 0 -480px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 3;
+    z-index: 999;
+    overflow: hidden;
 }
 
-#gnb .gnb-about .gnb-main span {
-    width: 49px;
-    background-position: -1057px -3px;
+
+/* 드랍다운 이미지 박스 */
+#dropdown-img-box {
+    margin-left: 250px;
 }
 
-#gnb .gnb-about .gnb-main a {
-    padding-right: 0;
+#dropdown-img-box img {
+    vertical-align: middle;
 }
-#gnb .gnb-sub {
+
+#dropdown-img-box img:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+/* 드랍다운 메뉴 박스 */
+#dropdown-menu-box {
+    display: flex;
+    z-index: 999;
+    margin-left : 100px;
+}
+
+#dropdown-menu-item-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-align:center;
+}
+
+.dropdown-menu-item:nth-child(1) {
+    margin-left: 35px;
+    margin-right: 130px;
+}
+
+.dropdown-menu-item:nth-child(3) {
+    margin-left: 140px;
+    margin-right: 110px;
+}
+
+.dropdown-menu-item:nth-child(5) {
+    margin-left: 105px;
+}
+
+.dropdown-menu-item p {
+    font-size: 14px;
+    color: #7b7b7b;
+}
+#gnb .gnb-bg {
     overflow: hidden;
     position: absolute;
-    top: 100%;
+    top: 184px;
     left: 0;
     height: 0;
-    z-index: 1000;
-    font-size: 14px;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 2px;
-    opacity: 0;
+    z-index: 999;
+    min-width: 100%;
+    border-bottom: 1px solid #693337;
+    background: #fff;
 }
-#gnb .gnb-sub li{
-    padding-bottom: 12px;
-}
-#gnb .gnb-sub li:first-child{
-    padding-top: 40px;
-}
-#gnb .gnb-sub a {
-    display: block;
-    padding: 5px 0;
-    color: #7b7b7b;
-    line-height: 1.2;
-    opacity: 0;
+#gnb .gnb-bg div {
+    width: 1200px;
+    height: 275px;
+    margin: 0 auto;
+    background: url("../img/img_happypoint_app.jpg") no-repeat 0 65px;
 }
 
 /* content */
