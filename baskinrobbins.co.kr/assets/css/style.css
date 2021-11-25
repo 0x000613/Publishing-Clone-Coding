@@ -164,6 +164,32 @@ header .member .join span {
 #gnb .gnb-about .gnb-main a {
     padding-right: 0;
 }
+#gnb .gnb-sub {
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 0;
+    z-index: 1000;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2px;
+    opacity: 0;
+}
+#gnb .gnb-sub li{
+    padding-bottom: 12px;
+}
+#gnb .gnb-sub li:first-child{
+    padding-top: 40px;
+}
+#gnb .gnb-sub a {
+    display: block;
+    padding: 5px 0;
+    color: #7b7b7b;
+    line-height: 1.2;
+    opacity: 0;
+}
 
 /* content */
 
