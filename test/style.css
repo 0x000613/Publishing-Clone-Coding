@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 메뉴바 전체를 감싸는 영역 */
+#menu-bar-wrapper {
+    width: 100%;
+    height: 46px;
+}
+
+#menu-bar-inner {
+    position:relative;
+    margin: 0 0 0 -480px;
+    width: 100%;
+    left: 100px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 3;
+}
+
+/* 메뉴바 로그인 영역 */
+#menu-bar-login {
+    padding-left: 180px;
+    padding-right: 45px;
+    white-space: nowrap;
+}
+
+#menu-bar-login a span {
+    font-size: 11px;
+    font-weight: 800;
+}
+
+#menu-bar-login a:nth-child(1) span {
+    color: #F77C98;
+    margin-right: 40px;
+}
+
+#menu-bar-login a:nth-child(2) span {
+    color: #6C6C6C;
+}
+
+/* 메뉴바 카테고리 영역 */
+#menu-bar-category {
+    white-space: nowrap;
+}
+
+#menu-bar-category a span {
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+/* 드롭다운 메뉴 영역 */
+#dropdown-wrapper {
+    width: 100%;
+    min-width: 100%;
+    height: 280px;
+    
+    background-color: blue;
+
+    transition: height .7s;
+
+    margin: 0 0 0 -480px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 3;
+
+    overflow: hidden;
+}
+
+/* 드랍다운 이미지 박스 */
+#dropdown-img-box {
+    margin-left: 250px;
+}
+
+#dropdown-img-box img {
+    vertical-align: middle;
+}
+
+#dropdown-img-box img:nth-child(1) {
+    margin-bottom: 50px;
+}
+
+/* 드랍다운 메뉴 박스 */
+#dropdown-menu-box {
+    display: flex;
+}
+
+#dropdown-menu-item-box {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-align:center;
+}
+
+.dropdown-menu-item:nth-child(1) {
+    margin-left: 35px;
+    margin-right: 130px;
+}
+
+.dropdown-menu-item:nth-child(3) {
+    margin-left: 140px;
+    margin-right: 110px;
+}
+
+.dropdown-menu-item:nth-child(5) {
+    margin-left: 105px;
+}
+
+.dropdown-menu-item p {
+    font-size: 14px;
+    color: #7b7b7b;
+}
