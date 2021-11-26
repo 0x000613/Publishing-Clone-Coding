@@ -1,0 +1,53 @@
+.menu-bar-category h2:hover {
+    background-color: #2C2A2A;
+    color: #649405;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#dropdown-wrapper {
+    width: 100%;
+    min-width: 100%;
+    height: 0px;
+
+    /* transform 재생을 적용할 대상과 재생 속도 */
+    transition: height .7s;
+
+    /* div 범위 밖의 영역 침범을 방지하기 위함 */
+    overflow: hidden;
+
+    /* only for debug */
+    background-color: #2C2A2A;
+}
+
+.dropdown-wrapper-inner {
+    position: relative;
+    left: 46%;
+    margin: 0 0 0 -480px;
+    width: 960px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    /* 서브카테고리별로 메뉴 정렬 */
+    display: none;
+    grid-template-columns: repeat(5, 1fr)
+}
+
+.dropdown-wrapper-inner-item p {
+    font-size: 12px;
+    color: #929291;
+    margin: 12px 0 12px 0;
+}
+
+.item-title {
+    font-size: 14px !important;
+    color: #fff !important;
+    margin: 0 0 10px 0 !important;
+}
+
+#dropdown-under-bg {
+    background: url(../img/dropdown_under_bg.jpeg);
+    display: inline-block;
+    min-height: 170px;
+    width: 100%;
+}

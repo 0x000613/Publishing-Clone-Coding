@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/common.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/dropdown.css">
     <!-- For aos.js -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>starbucks</title>
@@ -41,35 +42,173 @@
                         </p>
                     </div>
                     <nav class="sub-gnb-nav">
-                        <div class="sub-gnb-inner">
+                        <div class="sub-gnb-inner no-drag">
                             <ul>
-                                <li class="gnb-nav01">
+                                <li class="gnb-nav01 menu-bar-category">
                                     <h2>COFFEE</h2>
                                     <div></div>
                                 </li>
-                                <li class="gnb-nav02">
+                                <li class="gnb-nav02 menu-bar-category">
                                     <h2>MENU</h2>
                                     <div></div>
                                 </li>
-                                <li class="gnb-nav03">
+                                <li class="gnb-nav03 menu-bar-category">
                                     <h2>STORE</h2>
                                     <div></div>
                                 </li>
-                                <li class="gnb-nav04">
+                                <li class="gnb-nav04 menu-bar-category">
                                     <h2>RESPONSIBILITY</h2>
                                     <div></div>
                                 </li>
-                                <li class="gnb-nav05">
+                                <li class="gnb-nav05 menu-bar-category">
                                     <h2>STARBUCKS REWARDS</h2>
                                     <div></div>
                                 </li>
-                                <li class="gnb-nav06">
+                                <li class="gnb-nav06 menu-bar-category">
                                     <h2>WHATS NEW</h2>
                                     <div></div>
                                 </li>
                             </ul>
                         </div>
                     </nav>
+                    
+                    <!-- 드랍다운 영역 시작 -->
+                    <div id="dropdown-wrapper">
+                        <!-- Dropdown 1번 메뉴-->
+                        <div id="coffee" class="dropdown-wrapper-inner">
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">커피</p>
+                                <p>스타벅스 원두</p>
+                                <p>스타벅스 비아</p>
+                                <p>스타벅스엣홈 by 캡슐</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">나와 어울리는 커피</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">스타벅스 리저브</p>
+                                <p>RESERVE MAGAZINE</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">에스프레소 음료</p>
+                                <p>도피오</p>
+                                <p>에스프레소 마키아또</p>
+                                <p>아메리카노</p>
+                                <p>마키아또</p>
+                                <p>카푸치노</p>
+                                <p>라떼</p>
+                                <p>모카</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">최상의 커피를 즐기는 법</p>
+                                <p>커피 프레스</p>
+                                <p>푸어 오버</p>
+                                <p>아이스 푸어 오버</p>
+                                <p>커피 메이커</p>
+                                <p>리저브를 매장에서 다양하게 즐기는 법</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">커피 이야기</p>
+                                <p>농장에서 우리의 손으로</p>
+                                <p>최상의 아라비카 원두</p>
+                                <p>스타벅스 로스트 스펙트럼</p>
+                                <p>스타벅스 디카페인</p>
+                                <p>클로버 커피 추출 시스템</p>
+                            </div>
+                        </div>
+
+                        <!-- Dropdown 2번 메뉴 -->
+                        <div id="menu" class="dropdown-wrapper-inner">
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">음료</p>
+                                <p>콜드 브루</p>
+                                <p>브루드 커피</p>
+                                <p>에스프레소</p>
+                                <p>프라푸치노</p>
+                                <p>블렌디드</p>
+                                <p>스타벅스 피지오</p>
+                                <p>티(티바나)</p>
+                                <p>기타 제조 음료</p>
+                                <p>스타벅스 주스(병음료)</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">푸드</p>
+                                <p>브레드</p>
+                                <p>케이크</p>
+                                <p>샌드위치 & 샐러드</p>
+                                <p>따뜻한 푸드</p>
+                                <p>과일 & 요거트</p>
+                                <p>스낵 & 미니 디저트</p>
+                                <p>아이스크림</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">상품</p>
+                                <p>머그</p>
+                                <p>글라스</p>
+                                <p>플라스틱 텀블러</p>
+                                <p>스테인리스 텀블러</p>
+                                <p>보온병</p>
+                                <p>액세서리</p>
+                                <p>커피 용품</p>
+                                <p>패키지 티(티바나)</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">카드</p>
+                                <p>실물카드</p>
+                                <p>e-Gift 카드</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">메뉴 이야기</p>
+                                <p>나이트로 콜드브루</p>
+                                <p>콜드 브루</p>
+                                <p>스타벅스 티바나</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Dropdown 3번 메뉴 -->
+                        <div id="store" class="dropdown-wrapper-inner">
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">매장 찾기</p>
+                                <p>퀵 검색</p>
+                                <p>지역 검색</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">드라이브 스루 매장</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">스타벅스 리저브 매장</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">커뮤니티 스토어 매장</p>
+                            </div>
+                            <div class="dropdown-wrapper-inner-item">
+                                <p class="item-title">매장 이야기</p>
+                            </div>
+                        </div>
+
+                        <!-- Dropdown 4번 메뉴 -->
+                        <div id="respons" class="dropdown-wrapper-inner">
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                        </div>
+
+                        <!-- Dropdown 5번 메뉴 -->
+                        <div id="rewards" class="dropdown-wrapper-inner">
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                        </div>
+                        <div id="what" class="dropdown-wrapper-inner">
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                            <p>world</p>
+                        </div>
+                        <div id="dropdown-under-bg"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -355,5 +494,7 @@
     <script>
         AOS.init();
     </script>
+    <!-- For dropdown -->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
