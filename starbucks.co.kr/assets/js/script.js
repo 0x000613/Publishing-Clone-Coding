@@ -6,6 +6,8 @@ const dropdownWrapper = document.querySelector("#dropdown-wrapper");
 const dropdownInner = document.querySelectorAll(".dropdown-wrapper-inner");
 // dropdownWrapper 하단 배경 이미지
 const dropdownUnderBG = document.querySelector(".dropdown-under-bg")
+// dropdownWrapper 하단 content div
+const dropdownUnderInner = document.querySelectorAll(".dropdown-under-inner")
 
 // 메뉴바에 mouseover 이벤트 발생시 드롭다운 메뉴 출력
 for (let i = 0; i < menus.length; i++) {
@@ -21,6 +23,12 @@ for (let i = 0; i < menus.length; i++) {
 
         // 드롭다운 하단 배경 이미지 활성화
         dropdownUnderBG.style.display = "inline-block";
+        // 다른 하단 inner div 비활성화
+        for (const inner of dropdownUnderInner) inner.style.display = "none";
+        // 선택된 하단 inner div만 활성화
+        console.log(dropdownUnderInner[i])
+        dropdownUnderInner[i].style.display = "block";
+        
     })
 }
 
