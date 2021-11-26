@@ -51,7 +51,7 @@ let rollingData = [
     '시스템 개선 및 점검 안내'
   ]    // 롤링할 데이터를 넣으면 됩니다 갯수 제한 없어요
 
-let timer = 2000 // 롤링되는 주기 입니다 (1000 => 1초)
+let timer = 3000 // 롤링되는 주기 입니다 (1000 => 1초)
 
 let first = document.getElementById('first'),
 second = document.getElementById('second'),
