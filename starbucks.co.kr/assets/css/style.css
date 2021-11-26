@@ -369,6 +369,7 @@ p.btn-search a img {
     position: relative;
     margin: 0;
     font-size: 13px;
+    z-index: 2;
 }
 
 .rolling_wrap ul li {
@@ -378,7 +379,6 @@ p.btn-search a img {
     position:absolute;
     transition: top .75s;
     top: 100%;
-    z-index: 1;
     background-color: rgb(17,17,17);
 }
 .rolling_wrap ul li a{
