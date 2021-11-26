@@ -37,6 +37,7 @@
     font-size: 12px;
     color: #929291;
     margin: 12px 0 12px 0;
+    cursor: pointer;
 }
 
 .item-title {
@@ -45,9 +46,19 @@
     margin: 0 0 10px 0 !important;
 }
 
-#dropdown-under-bg {
-    background: url(../img/dropdown_under_bg.jpeg);
-    display: inline-block;
-    min-height: 170px;
+.dropdown-under-bg {
+    background: url(../img/ddunderbg.jpeg);
+    display: none;
+    position: relative;
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.dropdown-under-inner {
+    position: relative;
+    top: 50%;
+    left: 46%;
+    margin: 0 0 0 -480px;
+    width: 960px;
 }
