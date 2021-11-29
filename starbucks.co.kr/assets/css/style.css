@@ -1,8 +1,8 @@
-#mstopWrap {
+#headerWrap {
     height: 120px;
     position: relative;
 }
-.sub-gnb-wrap {
+.head-wrap {
     background: #f6f5ef;
     border-bottom: 1px solid #e5e5e5;
     border-top: 2px solid #000;
@@ -12,18 +12,18 @@
     width: 100%;
     z-index: 11;
 }
-.sub-gnb-wrap {
+.head-wrap {
     height: 120px;
     z-index: 99;
 }
-.sub-gnb-wrap-inner {
+.head-wrap-inner {
     height: 120px;
     width: 1100px;
     margin: 0 auto;
     position: relative;
     z-index: 11;
 }
-.sub-gnb-wrap-inner h1.logo {
+.head-wrap-inner h1.logo {
     height: 75px;
     top: 22px;
     width: 75px;
@@ -31,14 +31,14 @@
     position: absolute;
     left: 0;
 }
-.sub-gnb-wrap-inner h1.logo a {
+.head-wrap-inner h1.logo a {
     background: url("../img/logo.png");
     display: block;
     height:100%;
     overflow: hidden;
     width: 100%;
 }
-.sub-gnb-wrap-inner nav.util-nav{
+.head-wrap-inner nav.util-nav{
     height: 20px;
     right: 93px;
     top: 15px;
@@ -47,29 +47,29 @@
     position:absolute;
 }
 
-.sub-gnb-wrap-inner nav.util-nav ul li {
+.head-wrap-inner nav.util-nav ul li {
     height: 20px;
     float: left;
     text-align: center;
 }
-.sub-gnb-wrap-inner nav.util-nav ul li a {
+.head-wrap-inner nav.util-nav ul li a {
     line-height: 20px;
     color: #555;
     display: block;
     font: normal 13px Avenir, Arial, georgia;
 }
-.sub-gnb-wrap-inner nav.util-nav ul li.util-nav01 {
+.head-wrap-inner nav.util-nav ul li.util-nav01 {
     width: 76px;
 }
-.sub-gnb-wrap-inner nav.util-nav ul li.util-nav02{
+.head-wrap-inner nav.util-nav ul li.util-nav02{
     margin-left: 1px;
     width: 107px;
 }
-.sub-gnb-wrap-inner nav.util-nav ul li.util-nav03{
+.head-wrap-inner nav.util-nav ul li.util-nav03{
     margin-left: 1px;
     width: 181px;
 }
-.sub-gnb-wrap-inner nav.util-nav ul li.util-nav04{
+.head-wrap-inner nav.util-nav ul li.util-nav04{
     margin-left: 1px;
     width: 97px;
 }
@@ -83,7 +83,7 @@ p.btn-search {
     top:9px;
     width: 32px;
 }
-.sub-gnb-wrap-inner p.btn-search a{
+.head-wrap-inner p.btn-search a{
     display: block;
     position: absolute;
     right: 0;
@@ -97,7 +97,7 @@ p.btn-search a img {
     right: 7px;
     top: 6px;
 }
-.sub-gnb-nav{
+.head-nav{
     height: 66px;
     top: 54px;
     position: absolute;
@@ -105,19 +105,19 @@ p.btn-search a img {
     width: 100%;
     z-index: 11;
 }
-.sub-gnb-inner{
+.head-inner{
     height: 66px;
     width: 1100px;
     margin: 0 auto;
     z-index: 7;
 }
-.sub-gnb-inner > ul {
+.head-inner > ul {
     float:right;
 }
-.sub-gnb-inner > ul li{
+.head-inner > ul li{
     float:left;
 }
-.sub-gnb-inner > ul li h2{
+.head-inner > ul li h2{
     height: 56px;
     line-height: 20px;
     padding-top: 10px;
@@ -127,22 +127,22 @@ p.btn-search a img {
     text-align: center;
     width: 100%;
 }
-.sub-gnb-inner > ul li.gnb-nav01{
+.head-inner > ul li.gnb-nav01{
     width: 89px;
 }
-.sub-gnb-inner > ul li.gnb-nav02{
+.head-inner > ul li.gnb-nav02{
     width: 73px;
 }
-.sub-gnb-inner > ul li.gnb-nav03{
+.head-inner > ul li.gnb-nav03{
     width: 79px;
 }
-.sub-gnb-inner > ul li.gnb-nav04{
+.head-inner > ul li.gnb-nav04{
     width: 153px;
 }
-.sub-gnb-inner > ul li.gnb-nav05{
+.head-inner > ul li.gnb-nav05{
     width: 225px;
 }
-.sub-gnb-inner > ul li.gnb-nav06{
+.head-inner > ul li.gnb-nav06{
     width: 131px;
 }
 /* header end */
@@ -156,7 +156,7 @@ p.btn-search a img {
     border-top: 2px solid #000;
     position: relative;
 }
-.layer-floating{
+.icon-floating{
     position: fixed;
     top: 154px;
     left: 54.5%;
@@ -164,39 +164,39 @@ p.btn-search a img {
     margin-left: 485px;
     z-index: 100;
 }
-.layer-floating a {
+.icon-floating a {
     display: block;
     width: 100%;
     height: 100%;
 }
-.layer-floating img{
+.icon-floating img{
     display: block;
     width: 100%;
 }
-.visual-wrap {
+.optic-wrap {
     height: 646px;
     background: #d1131d no-repeat 50% 50%;
     background-size: cover;
 }
-.visual-inner{
+.optic-inner{
     position: relative;
     box-sizing: border-box;
     max-width: 1080px;
     height: 100%;
     margin: 0 auto;
 }
-.visual-slogan{
+.optic-slogan{
     position: absolute;
-    bottom: 71.36222910216718%;
+    bottom: 71%;
     z-index: 4;
 }
-.visual-slogan, .btn-slogan{
+.optic-slogan, .btn-slogan{
     margin-left: -542px;
     width: 328px;
     max-width: 328px;
     left: 50%;
 }
-.visual-set {
+.optic-set {
     position: absolute;
     left: 50%;
     margin-left: -540px;
@@ -205,23 +205,23 @@ p.btn-search a img {
     height: 100%;
     max-width: 1080px;
 }
-.visual-set:before{
-    left: -4.62962962962963%;
+.optic-set:before{
+    left: -4.5%;
     bottom: 0;
     width: 348px;
-    height: 23.21981424148607%;
+    height: 23%;
     background: url("../img/2021_chiristmas_bg_left.png") no-repeat 50% 100%;
     background-size: contain;
 }
-.visual-set:after {
-    right: 2.314814814814815%;
+.optic-set:after {
+    right: 2.3%;
     top: 0;
     width: 249px;
-    height: 13.0030959752322%;
+    height: 13%;
     background: url("../img/2021_chiristmas_bg_right.png") no-repeat 50% 0%;
     background-size: contain;
 }
-.visual-set:before ,.visual-set:after{
+.optic-set:before ,.optic-set:after{
     content:"";
     display:block;
     position: absolute;
@@ -234,7 +234,7 @@ p.btn-search a img {
 }
 .set-01 {
     position: absolute;
-    width: 27.31481481481481%;
+    width: 27%;
     right: 50%;
     margin-right: -5%;
     max-width: 295px;
@@ -248,17 +248,17 @@ p.btn-search a img {
 }
 .set-02 {
     position: absolute;
-    width: 46.57407407407407%;
+    width: 46.5%;
     right: 50%;
-    margin-right: -38.24074074074074%;
+    margin-right: -38%;
     max-width: 503px;
     bottom: 79px;
     z-index: 1;
 }
 .set-03 {
     position: absolute;
-    width: 21.85185185185185%;
-    right: -3.888888888888889%;
+    width: 22%;
+    right: -4%;
     max-width: 236px;
     bottom: 63px;
     z-index: 3;
@@ -277,7 +277,7 @@ p.btn-search a img {
     height: 91px;
 }
 .btn-slogan {
-    top: 34.98452012383901%;
+    top: 35%;
     z-index: 5;
     height: 38px;
 }
@@ -456,31 +456,31 @@ p.btn-search a img {
     overflow: hidden;
     position: absolute;
 }
-.new-wrap{
+.reward-wrap{
     padding-top: 30px;
     padding-bottom: 40px;
     background-color: #1e3932;
 }
-.new-inner{
+.reward-inner{
     max-width: 1080px;
     margin: 0 auto;
 }
-.new-inner:after{
+.reward-inner:after{
     content: "";
     display: block;
     clear: both;
 }
-.new-logo{
+.reward-logo{
     float: left;
     width: 16.3%;
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
 }
-.new-logo img{ 
+.reward-logo img{ 
     width: 176px;
 }
-.new-conts {
+.reward-conts {
     box-sizing: border-box;
     float: left;
     width: calc(83.7% - 80px);
@@ -489,32 +489,32 @@ p.btn-search a img {
     letter-spacing: 0.5px;
     letter-spacing: -1px;
 }
-.new-conts .info-cont{
+.reward-conts .info-cont{
     position: relative;
     margin-bottom: 22px;
     border-bottom: 1px solid #4b615b;
 }
-.new-conts .info-text{
+.reward-conts .info-text{
     margin-bottom: 12px;
 }
-.new-conts .info-text h2 {
+.reward-conts .info-text h2 {
     line-height: 1.4;
     margin-bottom: 12px;
     font-size: 26px;
     font-weight: normal;
     letter-spacing: -2px;
 }
-.new-conts .info-text p {
+.reward-conts .info-text p {
     line-height: 1.4;
     font-size: 17px;
 }
-.new-conts .info-btn-group{
+.reward-conts .info-btn-group{
     position: absolute;
     bottom: 20px;
     right: 0;
     font-size: 0;
 }
-.new-conts .info-btn-group a{
+.reward-conts .info-btn-group a{
     box-sizing: border-box;
     display: inline-block;
     height: 38px;
@@ -527,23 +527,23 @@ p.btn-search a img {
     cursor: pointer;
     
 }
-.new-conts .btn-join{
+.reward-conts .btn-join{
     background-color: #00704a;
     border: 2px solid #00704a;
 }
-.new-conts .btn-login {
+.reward-conts .btn-login {
     margin-left: 9px;
     background-color: transparent;
     border: 2px solid #fff;     
 }
-.new-conts .gift-cont{
+.reward-conts .gift-cont{
     position: relative;
 }
-.new-conts .gift-text p{
+.reward-conts .gift-text p{
     line-height: 1.4;
     font-size: 14px;
 }
-.new-conts .btn-egift{
+.reward-conts .btn-egift{
     box-sizing: border-box;
     position: absolute;
     top: 0;
@@ -556,51 +556,51 @@ p.btn-search a img {
     border: 2px solid #fff;
     border-radius: 5px;
 }
-.new-conts .btn-egift a{
+.reward-conts .btn-egift a{
     display: block;
     width: 100%;
     height: 100%;
     color: #fff;
 }
-#main-bean{
+#blend{
     overflow: hidden;
     position: relative;
     height: 573px;
     background: #ff9ba1 url("../img/2021_christmas_bean_bg.jpg") no-repeat 50% 50%;
     background-size:100% 100%;
 }
-.main-inner{
+.blend-inner{
     position: relative;
     max-width: 1080px;
     height: 100%;
     margin: 0 auto;
     z-index: 1;
 }
-.bean-img{
+.blend-img{
     position: absolute;
     top: 50%;
     margin-top: -18%;
-    width: 44.81481481481481%;
-    right: 45.64814814814815%;
+    width: 45%;
+    right: 45.5%;
     margin-left: 40px;
 }
-.bean-img img, .bean-text img {
+.blend-img img, .blend-text img {
     width: 100%;
 }
-.bean-text {
-    top: 31.99300699300699%;
-    width: 29.35185185185185%;
+.blend-text {
+    top: 32%;
+    width: 29%;
     margin-right: 0;
-    right: 16.5587%;
+    right: 16.5%;
     position:absolute;
 }
-.btn-bean {
+.btn-blend {
     margin-top: 39px;
     width: 125px;
     height: 38px;
     z-index: 6;
 }
-.btn-bean a {
+.btn-blend a {
     color: #453d3d;
     border: 1px solid #453d3d;
     display: block;
@@ -688,7 +688,7 @@ p.btn-search a img {
     border-radius: 5px;
     box-sizing: border-box;
 }
-#favWrap {
+#pick {
     background: url("../img/fav_prod_bg_new.jpg") center center fixed no-repeat
     #45434c;
     background-size: auto 100%;
@@ -696,7 +696,7 @@ p.btn-search a img {
     padding: 0;
     position: relative;
 }
-#favWrap .wrap-inner{
+#pick .pick-inner{
     left: 50%;
     margin-left: -640px;
     position: absolute;
@@ -704,7 +704,7 @@ p.btn-search a img {
     width: 1280px;
     bottom: 0;
 }
-.fav-txt01 {
+.pick-txt01 {
     background: url("../img/fav_prod_txt01.png") no-repeat;
     height: 204px;
     overflow: hidden;
@@ -715,7 +715,7 @@ p.btn-search a img {
     left: 200px;
     z-index: 7;
 }
-.fav-txt02 {
+.pick-txt02 {
     background: url("../img/fav_prod_txt02.png") no-repeat;
     height: 156px;
     left: 92px;
@@ -726,7 +726,7 @@ p.btn-search a img {
     width: 362px;
     z-index: 7;
 }
-.fav-img {
+.pick-img {
     top: 100px;
     right: -10px;
     width: 672px;
@@ -738,7 +738,7 @@ p.btn-search a img {
     background-position: center;
     z-index: 7;
 }
-.fav-prod {
+.pick-prod {
     width: 125px;
     height: 38px;
     border-width: 0;
@@ -747,7 +747,7 @@ p.btn-search a img {
     top: 570px;
     z-index: 7;
 }
-.fav-prod a {
+.pick-prod a {
     font-size: 15px;
     border: 2px solid #fff;
     border-radius: 5px;
