@@ -1,3 +1,8 @@
+/* 
+    @Filename : script.js
+    @Author : 김우영, 양수원
+    @Description : 스타벅스 클론코딩 javascript 입니다.
+ */
 // 헤더 메뉴
 const menus = document.querySelectorAll(".menu-bar-category");
 // 드롭다운 전체 영역 div
